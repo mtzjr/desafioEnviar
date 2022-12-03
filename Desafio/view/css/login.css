@@ -1,0 +1,80 @@
+/* CSS reset */
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+}
+  
+body{
+    margin:10px;
+}
+  
+a{
+    text-decoration: none;
+}
+  
+
+a.links{
+    display: none;
+}
+header nav a{
+    color: azure;
+    font-weight: 600;
+    margin-left: 3rem;
+}
+
+.content{
+    width: 500px;
+    margin: 0px auto;
+    position: relative; 
+}
+  
+
+h1{
+    font-size: 48px;
+    color: #066a75;
+    padding: 10px 0;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+p{
+    margin-bottom:15px;
+}
+
+label{
+    color: #405c60;
+    position: relative;
+}
+  
+input {
+    outline: none;
+}
+  
+input[type="submit"]{
+    width: 100%!important;
+    cursor: pointer;  
+    background: #3d9db3;
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;  
+    border: 1px solid #fff; 
+    margin-bottom: 10px;  
+    text-shadow: 0 1px 1px #333;
+}
+
+.link{
+    position: absolute;
+    background: #e1eaeb;
+    color: #7f7c7c;
+    left: 0px;
+    height: 20px;
+    width: 440px;
+    padding: 17px 30px 20px 30px;
+    font-size: 16px;
+    text-align: right;
+    border-top: 1px solid #dbe5e8;
+    border-radius: 0 0  5px 5px;
+}
